@@ -1,0 +1,19 @@
+.header {
+  place-content: center;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.category {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  border-radius: 14px;
+  &:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+}
