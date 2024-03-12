@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+  padding-block: 4px;
+  padding-inline: 12px;
+  font-size: 20px;
+  width: 20vw;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  width: fit-content;
+  place-self: center;
+}
