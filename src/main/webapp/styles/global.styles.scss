@@ -33,3 +33,18 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+input[type="submit"] {
+    background-color: #dbebff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #63b9ff;
+  }
